@@ -1,0 +1,35 @@
+//primeraa prueba 
+let valorA = 10
+let valorB = 90
+let color = ""
+let xd= "violeta"
+let owo = ""
+const a = "3"
+const b = 9
+let monto = (valorA + valorB)
+if(monto > 20){
+    color = "Amarillo"
+}
+else{
+    color = "Rojo"
+}
+
+switch (color){
+    case "Rojo":
+        console.log("Red")
+        break;
+    case "Amarillo":
+        console.log("yellow")
+        break;
+}
+for(let i = 0;i <1; i++){
+    console.log("Nicolas")
+}
+function suma(a, b){
+    return a + b
+}
+console.log(suma(Number(a), b))
+for(let i=0; i < xd.length;i++){
+    owo = owo + xd[i]
+    console.log(owo)
+} 
